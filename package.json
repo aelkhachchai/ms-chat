@@ -1,0 +1,23 @@
+{
+  "name": "ms-chat",
+  "description": "[MYPLATFORM][ms-chat] Micro service for **myplatform** project, dedicated to nothing in particular, only a demo",
+  "main": "ms.js",
+  "scripts": {
+    "production": "node ms",
+    "development": "node ms",
+    "start": "node ms",
+    "test": "mocha **.spec.js"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "chai": "^4.1.2"
+  },
+  "dependencies": {
+    "ms-manager": "^0.1.0"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Adrien Fenech",
+  "license": "ISC"
+}

@@ -1,0 +1,13 @@
+{  
+  "environment": "<environment of this service (ex: development)>",  
+  "hydra": {  
+    "serviceName": "ms-calc",  
+    "serviceIP": "<ip of the service>",  
+    "servicePort": 9000,  
+    "serviceType": "<type of this service>",  
+    "serviceDescription": "<description of this service>",  
+    "redis": {  
+      "url": "redis://127.0.0.1:6379/0"  
+    }  
+  }  
+}
